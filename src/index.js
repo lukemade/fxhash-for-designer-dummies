@@ -52,6 +52,14 @@ let sketch = function(p5) {
       p5.circle(p5.random()*p5.width, p5.random()*p5.height, p5.abs(p5.randomGaussian(0, p5.height/20)));
     }
     p5.pop();
+
+ p5.push();
+p5.fill(255, 204, 0);
+
+  p5.ellipse(56, 46, 55, 55);
+    p5.pop();
+
+
   };
 
   p5.windowResized = function() {
